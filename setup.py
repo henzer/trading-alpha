@@ -5,7 +5,7 @@ setup(
     version="1.0.0",
     author="Claude & Henzer",
     description="Institutional Trading Framework for 20-30% Annual Returns",
-    long_description=open("README.md").read() if open("README.md") else "",
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=[
